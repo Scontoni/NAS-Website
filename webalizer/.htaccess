@@ -1,0 +1,5 @@
+# WARNING: Any change to this block may get lost if webalizer is disable password protect setting
+AuthUserFile /var/services/web/webalizer/.htpasswd
+AuthType Basic
+AuthName "User-Password Required"
+Require valid-user
